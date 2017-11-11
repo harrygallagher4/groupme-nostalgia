@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Linkify from 'react-linkify';
 import _ from 'lodash';
 
 import Emoji from './Emoji';
@@ -40,7 +39,7 @@ function renderText({ text, attachments }) {
 
 function mapEmoji(charmap, placeholder) {
   return function mapEmoji(character, index){
-    if (character != placeholder)
+    if (character !== placeholder)
       return character;
     let map = charmap.shift();
     return <Emoji key={index} charmap={map} />

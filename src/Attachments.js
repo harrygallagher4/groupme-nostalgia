@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
-import _ from 'lodash';
 import { Image } from 'react-bootstrap';
-import Emoji from './Emoji';
 
 function todo(attachment, index) {
   return null;
