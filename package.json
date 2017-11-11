@@ -2,6 +2,7 @@
   "name": "groupme-nostalgia",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://harrygallagher4.github.io/groupme-nostalgia/",
   "dependencies": {
     "lodash": "^4.17.4",
     "moment": "^2.19.1",
